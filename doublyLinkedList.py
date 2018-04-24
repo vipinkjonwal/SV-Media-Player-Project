@@ -55,17 +55,3 @@ class Doublylinkedlist:
             if '.mp3' in i:
                 mp3Files.append(i)
         return mp3Files
-
-'''
-dlist = Doublylinkedlist()
-listFiles = dlist.getFileName("C:\\Users\\vkjof\Desktop\\Networks Final")
-for i in listFiles:
-    dlist.insert(i)
-dlist.display()
-
-d1 = dlist.getNext()
-d2= dlist.getPrev()
-print("present",dlist.head.data)
-print("next",d1)
-print("prev",d2)
-'''
